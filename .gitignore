@@ -1,0 +1,63 @@
+# Ignore Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/caches/
+.gradle/daemon/
+.gradle/native/
+.gradle/task-history/
+.gradle/gradle.properties
+
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore compiled output and generated files
+out/
+bin/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans files
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.build.xml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven files (if present)
+target/
+
+# Ignore generated docs
+/docs/
+
+# Ignore environment-specific files
+.env
+
+# Ignore specific file types
+*.war
+*.jar
+*.zip
+
+# Ignore logs
+*.log
+
+# Ignore Gradle wrapper files
+gradle/wrapper/gradle-wrapper.properties.lock
+gradle/wrapper/gradle-wrapper.jar.lock
+gradle/wrapper/gradle-wrapper.properties
